@@ -52,19 +52,39 @@ function Profile() {
           👤
         </div>
 
-        <h2 style={{ color: "#14532d" }}>
-          Bhavani Shanker
+        <h2
+          style={{
+            color: "#14532d",
+            marginTop: "15px",
+          }}
+        >
+          S.Manideepthi
         </h2>
 
-        <p>
-          📧 bhale123@gmail.com
+        <p
+          style={{
+            color: "#666",
+            fontSize: "18px",
+          }}
+        >
+          📧 manideepthi@gmail.com
         </p>
 
-        <p>
+        <p
+          style={{
+            color: "#666",
+            fontSize: "18px",
+          }}
+        >
           🌿 Total Scans: 5
         </p>
 
-        <p>
+        <p
+          style={{
+            color: "#666",
+            fontSize: "18px",
+          }}
+        >
           🤖 AI Plant Detection User
         </p>
       </div>
@@ -78,7 +98,11 @@ function Profile() {
           marginBottom: "20px",
         }}
       >
-        <h3 style={{ color: "#16a34a" }}>
+        <h3
+          style={{
+            color: "#16a34a",
+          }}
+        >
           Account Information
         </h3>
 
@@ -97,6 +121,7 @@ function Profile() {
           border: "none",
           borderRadius: "10px",
           cursor: "pointer",
+          fontSize: "16px",
         }}
       >
         Logout
